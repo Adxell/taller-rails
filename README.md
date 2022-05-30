@@ -5,7 +5,7 @@ by Adxell Arango
 ## Descripción✍
 
 Este trabajo está hecho en ruby versión 2.7.6, junto con la última versión de Rails. 
-Para evitar instalar el ruby en mi computadora quise hacer el proyecto Docker.
+Para evitar instalar ruby en mi computadora quise hacer el proyecto Docker.
 Para la parte de base de datos tiene SQLite. 
 
 
