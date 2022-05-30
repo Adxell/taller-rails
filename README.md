@@ -26,3 +26,7 @@ Este es el paso a paso para poder ejecutar este proyecto
 * Ejecutar docker compose `docker-compose up`
 
 * Entrar a `http://localhost:3000/`
+
+## Vistas
+
+### Usuarios `http://localhost:3000/usuarios`
