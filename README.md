@@ -3,8 +3,9 @@ by Adxell Arango
 
 Hola 👋
 
-Tener Docker [link](https://www.docker.com/)
-Paso a paso para ejecutar🧏‍♂️
+Tener [Docker](https://www.docker.com/)
+
+##Paso a paso para ejecutar🧏‍♂️
 
 Este es el paso a paso para poder ejecutar este proyecto 
 
