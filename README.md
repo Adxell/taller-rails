@@ -1,12 +1,12 @@
-# Trabajo de Rails
+# Trabajo de Rails👩‍💻
 by Adxell Arango
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hola 👋
+#Paso a paso para ejecutar🧏‍♂️
 
-Things you may want to cover:
+Este es el paso a paso para poder ejecutar este proyecto 
 
-* Ruby version
+* Clonar el proyecto https://github.com/Adxell/taller-rails.git
 
 * System dependencies
 
