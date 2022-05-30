@@ -5,7 +5,7 @@ Hola 👋
 
 Tener [Docker](https://www.docker.com/)
 
-##Paso a paso para ejecutar🧏‍♂️
+## Paso a paso para ejecutar🧏‍♂️
 
 Este es el paso a paso para poder ejecutar este proyecto 
 
