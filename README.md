@@ -9,8 +9,7 @@ Tener [Docker](https://www.docker.com/)
 
 Este es el paso a paso para poder ejecutar este proyecto 
 
-* Clonar el proyecto https://github.com/Adxell/taller-rails.git
-
+* Clonar el proyecto `git clone https://github.com/Adxell/taller-rails.git`
 * System dependencies
 
 * Configuration
