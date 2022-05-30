@@ -41,7 +41,7 @@ Este es el paso a paso para poder ejecutar este proyecto
 
 * Entrar a `http://localhost:3000/multa`
 
-#### Detellades 
+#### Detalles 
 
 * Entrar a `http://localhost:3000/detalles`
 
