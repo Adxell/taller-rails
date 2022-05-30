@@ -31,4 +31,20 @@ Este es el paso a paso para poder ejecutar este proyecto
 
 #### Usuarios 
 
-`http://localhost:3000/usuarios`
+* Entrar a `http://localhost:3000/usuarios`
+
+#### Prestamos 
+
+* Entrar a `http://localhost:3000/pretamos`
+
+#### Multas 
+
+* Entrar a `http://localhost:3000/multa`
+
+#### Detellades 
+
+* Entrar a `http://localhost:3000/detalles`
+
+#### Libros 
+
+* Entrar a `http://localhost:3000/libros`
