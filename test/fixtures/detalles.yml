@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cantidad: 9.99
+  prestamo: one
+  libro: one
+
+two:
+  cantidad: 9.99
+  prestamo: two
+  libro: two

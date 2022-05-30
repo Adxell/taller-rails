@@ -1,0 +1,25 @@
+<h1>Módulo de consulta de préstamos</h1>
+<%= form_tag :action => 'modp' do %>  
+    <div>
+    <p>Nombres completos </p>
+    <%= select_tag 'parametros', options_for_select(@usuarios.collect{|u|[u.nombres + ' ' + u.apellidos, u.id]}) %>
+    </div>
+  
+    <div>
+      <%= submit_tag 'Consultar'%>
+    </div>
+<% end %>
+
+
+  <% if @prestamolib %>
+  <table>
+    <% @prestamolib.each do |prestamo| %>
+      <tr> 
+          <td><%=prestamo.id%></td>
+          <td><%=prestamo.fecha%></td>
+          <td><%=prestamo.estado%></td>
+          <td><%=prestamo.Usuario.nombres%>  <%=prestamo.Usuario.apellidos%></td>
+      </tr>
+    <% end %>
+  </table>
+  <%end%>

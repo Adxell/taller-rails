@@ -1,0 +1,2 @@
+class ConsultasUsuario < ApplicationRecord
+end

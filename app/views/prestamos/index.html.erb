@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<h1>Prestamos</h1>
+
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Estado</th>
+<th>Usuario</th>
+<th>Opciones</th>
+</tr>
+</thead>
+
+<tbody>
+<% @prestamos.each do |prestamo| %>
+  <tr>
+  <td><%= prestamo.fecha %></td>
+  <td><%= prestamo.estado %></td>
+  <td><%= prestamo.usuario.id.to_s+" - "+ prestamo.usuario.nombres %></td>
+  <td><%= link_to 'Show', prestamo, :class => "btn btn-info", :style => "color:#fff" %>
+  <%= link_to 'Edit', edit_prestamo_path(prestamo) , :class => "btn btn-primary", :style => "color:#fff" %>
+  <%= link_to 'Destroy', prestamo, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger", :style => "color:#fff" %></td>
+  </tr>
+  <% end %>
+  </tbody>
+  </table>
+  
+  <br>
+  
+  <%= link_to 'New Prestamo', new_prestamo_path, :class => "btn btn-primary", :style => "color:#fff" %>
+  
+</div>
+  

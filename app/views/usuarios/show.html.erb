@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container">
+<p id="notice"><%= notice %></p>
+<h1>Detalles Usuario</h1>
+<p>
+  <strong>Nombres:</strong>
+  <%= @usuario.nombres %>
+</p>
+
+<p>
+  <strong>Apellidos:</strong>
+  <%= @usuario.apellidos %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @usuario.direccion %>
+</p>
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @usuario.telefono %>
+</p>
+
+<p>
+  <strong>Login:</strong>
+  <%= @usuario.login %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @usuario.password %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @usuario.email %>
+</p>
+
+<%= link_to 'Edit', edit_usuario_path(@usuario), :class => "btn btn-primary", :style =>"color:#fff" %> |
+<%= link_to 'Back', usuarios_path, :class => "btn btn-primary", :style =>"color:#fff"%>
+</div>

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Consultas Usuarios</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @consultas_usuarios.each do |consultas_usuario| %>
+      <tr>
+        <td><%= link_to 'Show', consultas_usuario %></td>
+        <td><%= link_to 'Edit', edit_consultas_usuario_path(consultas_usuario) %></td>
+        <td><%= link_to 'Destroy', consultas_usuario, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Consultas Usuario', new_consultas_usuario_path %>

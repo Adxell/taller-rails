@@ -1,0 +1,3 @@
+class Consulta < ApplicationRecord
+
+end

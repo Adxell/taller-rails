@@ -1,0 +1,1 @@
+json.url consulta_url(consulta, format: :json)
