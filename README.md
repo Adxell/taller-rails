@@ -2,7 +2,7 @@
 
 by Adxell Arango
 
-## Descipcion✍
+## Descripción✍
 
 Este trabajo está hecho en ruby versión 2.7.6, junto con la última versión de Rails. 
 Para evitar instalar el ruby en mi computadora quise hacer el proyecto Docker.
