@@ -10,18 +10,9 @@ Tener [Docker](https://www.docker.com/)
 Este es el paso a paso para poder ejecutar este proyecto 
 
 * Clonar el proyecto `git clone https://github.com/Adxell/taller-rails.git`
-* System dependencies
 
-* Configuration
+* Entrar en el proyecto `cd taller-rails`
 
-* Database creation
+* Ejecutar docker compose `docker-compose up`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Entrar a `http://localhost:3000/`
